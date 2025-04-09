@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #230C33;
+    color: white;
+    font-family: Geneva, Tahoma, sans-serif;
+  }
+  
+  .image{
+    width: 400px;
+    height: 10vh;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .title{
+    font-size: 2.5rem;
+    padding: 10px 0;
+  }
+  
+  .palindrome-div{
+    box-shadow: 0 6px 6px #592E83;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #CAA8F5;
+  }
+  
+  .palindrome-div, .palindrome-definition-div{
+    width: 400px;
+    min-height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #230C33;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid 592E83;
+  }
+  
+  .palindrome-definition-div{
+    margin-top: 20px;
+    background-color: #474056;
+    color: white;
+  }
+  
+  .palindrome-input, .palindrome-btn{
+    padding: 6px;
+    margin: 5px;
+    border : none;
+    background-color: #CAA8F5;
+  }
+  
+  .palindrome-btn{
+    border-radius: 5px;
+  }
+  
+  .palindrome-input:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .palindrome-input::placeholder{
+    text-align: center;
+    color: #474056;
+    background-color : #CAA8F5; 
+  }
+  
+  .palindrome-input{
+    text-align: center;
+    font-size: 1.1rem;
+    border-bottom: 2px solid;
+  }
+  
+  .palindrome-btn{
+    background-color: #230C33;
+    color: white;
+  }
